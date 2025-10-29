@@ -213,6 +213,10 @@
             {
               "name": "SlotLengte",
               "ioValue": 10
+            },
+            {
+              "name": "PlaatDikte",
+              "ioValue": 10
             }
           ],
           "topLevel": false,
@@ -270,8 +274,21 @@
                 {
                   "name": "height",
                   "ioValue": 10
+                },
+                {
+                  "name": "PlaatDikte",
+                  "ioValue": 1
                 }
               ]
+            },
+            {
+              "atomType": "Input",
+              "name": "PlaatDikte",
+              "x": 0.025384615384615384,
+              "y": 0.5628397298632845,
+              "uniqueID": "d2f7571c-1fde-4d97-baaa-281243787ee6",
+              "ioValues": [],
+              "type": "number"
             }
           ],
           "allConnectors": [
@@ -292,10 +309,22 @@
               "ap2Name": "y length",
               "ap1ID": "84178ada-254e-46d0-970f-15674918ff2d",
               "ap2ID": "1abb2749-8e59-4310-bf16-1cc11d191e18"
+            },
+            {
+              "ap1Name": "geometry",
+              "ap2Name": "number or geometry",
+              "ap1ID": "70327742-c3c2-41f3-a37f-f91d28b54c71",
+              "ap2ID": "67fbee2e-4171-4cfe-a9f7-0270f439ec0b"
+            },
+            {
+              "ap1Name": "number or geometry",
+              "ap2Name": "height",
+              "ap1ID": "d2f7571c-1fde-4d97-baaa-281243787ee6",
+              "ap2ID": "70327742-c3c2-41f3-a37f-f91d28b54c71"
             }
           ],
           "fileTypeVersion": 1,
-          "compiledBom": {}
+          "compiledBom": []
         }
       ],
       "allConnectors": [
