@@ -28,8 +28,7 @@
         },
         {
           "name": "Passes",
-          "ioValue": 3,
-          "currentEquation": "3"
+          "ioValue": 3
         },
         {
           "name": "Speed",
@@ -139,7 +138,85 @@
             },
             {
               "name": "Shape 2",
-              "ioValue": null
+              "ioValue": {
+                "geometry": "move-extrude-rectangle-18-100-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-18-191-0-0",
+                "dimension": "3D",
+                "plane": {
+                  "origin": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "xDir": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "normal": [
+                    0,
+                    0,
+                    1
+                  ]
+                },
+                "color": "#D9544D",
+                "tags": [
+                  "keepout"
+                ],
+                "bom": []
+              }
+            },
+            {
+              "name": "Shape 3",
+              "ioValue": {
+                "geometry": "move-extrude-rectangle-18-100-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-18--191-0-0",
+                "dimension": "3D",
+                "plane": {
+                  "origin": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "xDir": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "normal": [
+                    0,
+                    0,
+                    1
+                  ]
+                },
+                "color": "#D9544D",
+                "tags": [
+                  "keepout"
+                ],
+                "bom": []
+              }
+            }
+          ]
+        },
+        {
+          "atomType": "Move",
+          "name": "Move",
+          "x": 0.22953451043338682,
+          "y": 0.7194860813704497,
+          "uniqueID": "4a0c7fb2-5242-4fa8-a6f5-84bb9cd28caf",
+          "ioValues": [
+            {
+              "name": "xDist",
+              "ioValue": 191,
+              "currentEquation": "191"
+            },
+            {
+              "name": "yDist",
+              "ioValue": 0,
+              "currentEquation": "0"
+            },
+            {
+              "name": "zDist",
+              "ioValue": 0,
+              "currentEquation": "0"
             }
           ]
         },
@@ -152,13 +229,11 @@
           "ioValues": [
             {
               "name": "SlotLengte",
-              "ioValue": 100,
-              "currentEquation": "100"
+              "ioValue": 100
             },
             {
               "name": "PlaatDikte",
-              "ioValue": 18,
-              "currentEquation": "18"
+              "ioValue": 18
             }
           ],
           "topLevel": false,
@@ -192,7 +267,7 @@
               "atomType": "Input",
               "name": "SlotLengte",
               "x": 0.025384615384615384,
-              "y": 0.4859166529402075,
+              "y": 0.15384615384615385,
               "uniqueID": "84178ada-254e-46d0-970f-15674918ff2d",
               "ioValues": [],
               "type": "number"
@@ -207,10 +282,6 @@
                 {
                   "name": "height",
                   "ioValue": 18
-                },
-                {
-                  "name": "PlaatDikte",
-                  "ioValue": 1
                 }
               ]
             },
@@ -218,7 +289,7 @@
               "atomType": "Input",
               "name": "PlaatDikte",
               "x": 0.025384615384615384,
-              "y": 0.5628397298632845,
+              "y": 0.23076923076923078,
               "uniqueID": "d2f7571c-1fde-4d97-baaa-281243787ee6",
               "ioValues": [],
               "type": "number"
@@ -262,14 +333,14 @@
         {
           "atomType": "Move",
           "name": "Move",
-          "x": 0.22953451043338682,
-          "y": 0.7194860813704497,
-          "uniqueID": "4a0c7fb2-5242-4fa8-a6f5-84bb9cd28caf",
+          "x": 0.2252541466024612,
+          "y": 0.8950749464668094,
+          "uniqueID": "a296f560-81fb-4980-847d-7a32a55d0557",
           "ioValues": [
             {
               "name": "xDist",
-              "ioValue": 182,
-              "currentEquation": "200-PlaatDikte"
+              "ioValue": -191,
+              "currentEquation": "-191"
             },
             {
               "name": "yDist",
@@ -278,13 +349,17 @@
             {
               "name": "zDist",
               "ioValue": 0
-            },
-            {
-              "name": "PlaatDikte",
-              "ioValue": 18,
-              "currentEquation": "18"
             }
           ]
+        },
+        {
+          "atomType": "Color",
+          "name": "Color",
+          "x": 0.39539860888175493,
+          "y": 0.9379014989293362,
+          "uniqueID": "96ddd6c1-d838-499c-b7bf-6844ea9444ec",
+          "ioValues": [],
+          "selectedColorIndex": 23
         }
       ],
       "allConnectors": [
@@ -313,16 +388,40 @@
           "ap2ID": "fe27ea16-27bf-4cf3-a58c-d8de7c35773d"
         },
         {
+          "ap1Name": "geometry",
+          "ap2Name": "geometry",
+          "ap1ID": "4a0c7fb2-5242-4fa8-a6f5-84bb9cd28caf",
+          "ap2ID": "07e79e1c-e9f2-4472-9a8c-35403809012f"
+        },
+        {
           "ap1Name": "geometry or number",
           "ap2Name": "geometry",
           "ap1ID": "e9ae1300-37af-4188-a1fc-781faade7137",
           "ap2ID": "4a0c7fb2-5242-4fa8-a6f5-84bb9cd28caf"
         },
         {
+          "ap1Name": "geometry or number",
+          "ap2Name": "PlaatDikte",
+          "ap1ID": "e9ae1300-37af-4188-a1fc-781faade7137",
+          "ap2ID": "4a0c7fb2-5242-4fa8-a6f5-84bb9cd28caf"
+        },
+        {
+          "ap1Name": "geometry or number",
+          "ap2Name": "geometry",
+          "ap1ID": "e9ae1300-37af-4188-a1fc-781faade7137",
+          "ap2ID": "a296f560-81fb-4980-847d-7a32a55d0557"
+        },
+        {
           "ap1Name": "geometry",
           "ap2Name": "geometry",
-          "ap1ID": "4a0c7fb2-5242-4fa8-a6f5-84bb9cd28caf",
-          "ap2ID": "07e79e1c-e9f2-4472-9a8c-35403809012f"
+          "ap1ID": "a296f560-81fb-4980-847d-7a32a55d0557",
+          "ap2ID": "96ddd6c1-d838-499c-b7bf-6844ea9444ec"
+        },
+        {
+          "ap1Name": "color",
+          "ap2Name": "Shape 3",
+          "ap1ID": "96ddd6c1-d838-499c-b7bf-6844ea9444ec",
+          "ap2ID": "82d8a81b-f344-4fad-8101-f1e998a4ad16"
         }
       ],
       "fileTypeVersion": 1,
