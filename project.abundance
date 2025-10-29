@@ -1,0 +1,15 @@
+{
+    "atomType": "Molecule",
+    "name": "Wallplate",
+    "x": 0,
+    "y": 0,
+    "uniqueID": "f8b0deb7-b1e9-405d-a17d-46fb591a3e71",
+    "ioValues": [],
+    "topLevel": true,
+    "allAtoms": [],
+    "allConnectors": [],
+    "unitsKey": "MM",
+    "fileTypeVersion": 1,
+    "compiledBom": {},
+    "filetypeVersion": 1
+}
