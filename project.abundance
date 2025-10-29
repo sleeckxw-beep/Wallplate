@@ -16,6 +16,38 @@
       "ioValues": []
     },
     {
+      "atomType": "Gcode",
+      "name": "Gcode",
+      "x": 0.7041198501872659,
+      "y": 0.4710920770877945,
+      "uniqueID": "92338356-1de3-4019-9775-d51dac16da3c",
+      "ioValues": [
+        {
+          "name": "Tool Size",
+          "ioValue": 6.35
+        },
+        {
+          "name": "Passes",
+          "ioValue": 10,
+          "currentEquation": "10"
+        },
+        {
+          "name": "Speed",
+          "ioValue": 1500
+        },
+        {
+          "name": "Cut Through",
+          "ioValue": 0
+        },
+        {
+          "name": "Part Name",
+          "ioValue": "Wallplate"
+        }
+      ],
+      "partName": "Wallplate",
+      "sortDirection": "Left"
+    },
+    {
       "atomType": "Molecule",
       "name": "Molecule",
       "x": 0.42857142857142855,
@@ -41,13 +73,11 @@
           "ioValues": [
             {
               "name": "x length",
-              "ioValue": 400,
-              "currentEquation": "400"
+              "ioValue": 400
             },
             {
               "name": "y length",
-              "ioValue": 400,
-              "currentEquation": "400"
+              "ioValue": 400
             }
           ]
         },
@@ -60,8 +90,7 @@
           "ioValues": [
             {
               "name": "height",
-              "ioValue": 18,
-              "currentEquation": "18"
+              "ioValue": 18
             }
           ]
         }
@@ -82,51 +111,20 @@
       ],
       "fileTypeVersion": 1,
       "compiledBom": []
-    },
-    {
-      "atomType": "Gcode",
-      "name": "Gcode",
-      "x": 0.7041198501872659,
-      "y": 0.4710920770877945,
-      "uniqueID": "92338356-1de3-4019-9775-d51dac16da3c",
-      "ioValues": [
-        {
-          "name": "Tool Size",
-          "ioValue": 6.35
-        },
-        {
-          "name": "Passes",
-          "ioValue": 1
-        },
-        {
-          "name": "Speed",
-          "ioValue": 1500
-        },
-        {
-          "name": "Cut Through",
-          "ioValue": 0
-        },
-        {
-          "name": "Part Name",
-          "ioValue": "Wallplate"
-        }
-      ],
-      "partName": "Wallplate",
-      "sortDirection": "Left"
     }
   ],
   "allConnectors": [
-    {
-      "ap1Name": "geometry or number",
-      "ap2Name": "geometry",
-      "ap1ID": "72a93343-6f51-41da-ad83-2d4d46044d94",
-      "ap2ID": "92338356-1de3-4019-9775-d51dac16da3c"
-    },
     {
       "ap1Name": "output",
       "ap2Name": "number or geometry",
       "ap1ID": "92338356-1de3-4019-9775-d51dac16da3c",
       "ap2ID": "27b65ae8-b220-4c35-a5f3-a7e766e0de5e"
+    },
+    {
+      "ap1Name": "geometry or number",
+      "ap2Name": "geometry",
+      "ap1ID": "72a93343-6f51-41da-ad83-2d4d46044d94",
+      "ap2ID": "92338356-1de3-4019-9775-d51dac16da3c"
     }
   ],
   "unitsKey": "MM",
