@@ -140,7 +140,7 @@
             {
               "name": "Shape 2",
               "ioValue": {
-                "geometry": "move-extrude-rectangle-18-100-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-18-100-0-0",
+                "geometry": "move-extrude-rectangle-18-100-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-18-182-0-0",
                 "dimension": "3D",
                 "plane": {
                   "origin": [
@@ -293,8 +293,8 @@
           "ioValues": [
             {
               "name": "xDist",
-              "ioValue": 100,
-              "currentEquation": "100"
+              "ioValue": 182,
+              "currentEquation": "200-PlaatDikte"
             },
             {
               "name": "yDist",
@@ -303,6 +303,11 @@
             {
               "name": "zDist",
               "ioValue": 0
+            },
+            {
+              "name": "PlaatDikte",
+              "ioValue": 18,
+              "currentEquation": "18"
             }
           ]
         }
