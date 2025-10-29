@@ -1,15 +1,53 @@
 {
-    "atomType": "Molecule",
-    "name": "Wallplate",
-    "x": 0,
-    "y": 0,
-    "uniqueID": "f8b0deb7-b1e9-405d-a17d-46fb591a3e71",
-    "ioValues": [],
-    "topLevel": true,
-    "allAtoms": [],
-    "allConnectors": [],
-    "unitsKey": "MM",
-    "fileTypeVersion": 1,
-    "compiledBom": {},
-    "filetypeVersion": 1
+  "atomType": "Molecule",
+  "name": "Wallplate",
+  "x": 0,
+  "y": 0,
+  "uniqueID": "f8b0deb7-b1e9-405d-a17d-46fb591a3e71",
+  "ioValues": [],
+  "topLevel": true,
+  "allAtoms": [
+    {
+      "atomType": "Output",
+      "name": "Output",
+      "x": 0.98,
+      "y": 0.5,
+      "uniqueID": "27b65ae8-b220-4c35-a5f3-a7e766e0de5e",
+      "ioValues": []
+    },
+    {
+      "atomType": "Molecule",
+      "name": "Molecule",
+      "x": 0.42857142857142855,
+      "y": 0.45824411134903636,
+      "uniqueID": "72a93343-6f51-41da-ad83-2d4d46044d94",
+      "ioValues": [],
+      "topLevel": false,
+      "allAtoms": [
+        {
+          "atomType": "Output",
+          "name": "Output",
+          "x": 0.98,
+          "y": 0.5,
+          "uniqueID": "fe27ea16-27bf-4cf3-a58c-d8de7c35773d",
+          "ioValues": []
+        }
+      ],
+      "allConnectors": [],
+      "fileTypeVersion": 1,
+      "compiledBom": {}
+    }
+  ],
+  "allConnectors": [
+    {
+      "ap1Name": "geometry or number",
+      "ap2Name": "number or geometry",
+      "ap1ID": "72a93343-6f51-41da-ad83-2d4d46044d94",
+      "ap2ID": "27b65ae8-b220-4c35-a5f3-a7e766e0de5e"
+    }
+  ],
+  "unitsKey": "MM",
+  "fileTypeVersion": 1,
+  "compiledBom": {},
+  "filetypeVersion": 1
 }
