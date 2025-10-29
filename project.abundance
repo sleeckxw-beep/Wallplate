@@ -52,7 +52,16 @@
       "x": 0.42857142857142855,
       "y": 0.45824411134903636,
       "uniqueID": "72a93343-6f51-41da-ad83-2d4d46044d94",
-      "ioValues": [],
+      "ioValues": [
+        {
+          "name": "Input (1)",
+          "ioValue": 10
+        },
+        {
+          "name": "Input (2)",
+          "ioValue": 10
+        }
+      ],
       "topLevel": false,
       "allAtoms": [
         {
@@ -104,19 +113,30 @@
               "name": "x length",
               "ioValue": 10,
               "currentEquation": "10"
+            },
+            {
+              "name": "y length",
+              "ioValue": 10
             }
           ]
         },
         {
-          "atomType": "Tag",
-          "name": "Plythick",
-          "x": 0.13964686998394865,
-          "y": 0.556745182012848,
-          "uniqueID": "3cce3b8b-8e7a-4a3f-ba9c-487ff199db95",
+          "atomType": "Input",
+          "name": "Input (1)",
+          "x": 0.025384615384615384,
+          "y": 0.5353319057815845,
+          "uniqueID": "1b2fe37f-cf11-44b2-b23f-dea39c5a98b8",
           "ioValues": [],
-          "tags": [
-            "Plythick"
-          ]
+          "type": "number"
+        },
+        {
+          "atomType": "Input",
+          "name": "Input (2)",
+          "x": 0.025384615384615384,
+          "y": 0.6122549827046615,
+          "uniqueID": "dd8b08ad-245f-4d60-8b54-50002bd767f1",
+          "ioValues": [],
+          "type": "number"
         }
       ],
       "allConnectors": [
@@ -133,9 +153,15 @@
           "ap2ID": "fe27ea16-27bf-4cf3-a58c-d8de7c35773d"
         },
         {
-          "ap1Name": "geometry",
+          "ap1Name": "number or geometry",
+          "ap2Name": "x length",
+          "ap1ID": "1b2fe37f-cf11-44b2-b23f-dea39c5a98b8",
+          "ap2ID": "5db0024a-86de-4815-95f7-716841fe9c94"
+        },
+        {
+          "ap1Name": "number or geometry",
           "ap2Name": "y length",
-          "ap1ID": "3cce3b8b-8e7a-4a3f-ba9c-487ff199db95",
+          "ap1ID": "dd8b08ad-245f-4d60-8b54-50002bd767f1",
           "ap2ID": "5db0024a-86de-4815-95f7-716841fe9c94"
         }
       ],
