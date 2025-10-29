@@ -31,23 +31,106 @@
           "y": 0.5,
           "uniqueID": "fe27ea16-27bf-4cf3-a58c-d8de7c35773d",
           "ioValues": []
+        },
+        {
+          "atomType": "Rectangle",
+          "name": "Rectangle",
+          "x": 0.4194756554307116,
+          "y": 0.47323340471092074,
+          "uniqueID": "d0d6f126-18b9-4571-894e-3c96777b6906",
+          "ioValues": [
+            {
+              "name": "x length",
+              "ioValue": 400,
+              "currentEquation": "400"
+            },
+            {
+              "name": "y length",
+              "ioValue": 400,
+              "currentEquation": "400"
+            }
+          ]
+        },
+        {
+          "atomType": "Extrude",
+          "name": "Extrude",
+          "x": 0.5168539325842697,
+          "y": 0.569593147751606,
+          "uniqueID": "06d3b724-af35-415f-ba77-eacb474028eb",
+          "ioValues": [
+            {
+              "name": "height",
+              "ioValue": 18,
+              "currentEquation": "18"
+            }
+          ]
         }
       ],
-      "allConnectors": [],
+      "allConnectors": [
+        {
+          "ap1Name": "geometry",
+          "ap2Name": "geometry",
+          "ap1ID": "d0d6f126-18b9-4571-894e-3c96777b6906",
+          "ap2ID": "06d3b724-af35-415f-ba77-eacb474028eb"
+        },
+        {
+          "ap1Name": "geometry",
+          "ap2Name": "number or geometry",
+          "ap1ID": "06d3b724-af35-415f-ba77-eacb474028eb",
+          "ap2ID": "fe27ea16-27bf-4cf3-a58c-d8de7c35773d"
+        }
+      ],
       "fileTypeVersion": 1,
-      "compiledBom": {}
+      "compiledBom": []
+    },
+    {
+      "atomType": "Gcode",
+      "name": "Gcode",
+      "x": 0.7041198501872659,
+      "y": 0.4710920770877945,
+      "uniqueID": "92338356-1de3-4019-9775-d51dac16da3c",
+      "ioValues": [
+        {
+          "name": "Tool Size",
+          "ioValue": 6.35
+        },
+        {
+          "name": "Passes",
+          "ioValue": 1
+        },
+        {
+          "name": "Speed",
+          "ioValue": 1500
+        },
+        {
+          "name": "Cut Through",
+          "ioValue": 0
+        },
+        {
+          "name": "Part Name",
+          "ioValue": "Wallplate"
+        }
+      ],
+      "partName": "Wallplate",
+      "sortDirection": "Left"
     }
   ],
   "allConnectors": [
     {
       "ap1Name": "geometry or number",
-      "ap2Name": "number or geometry",
+      "ap2Name": "geometry",
       "ap1ID": "72a93343-6f51-41da-ad83-2d4d46044d94",
+      "ap2ID": "92338356-1de3-4019-9775-d51dac16da3c"
+    },
+    {
+      "ap1Name": "output",
+      "ap2Name": "number or geometry",
+      "ap1ID": "92338356-1de3-4019-9775-d51dac16da3c",
       "ap2ID": "27b65ae8-b220-4c35-a5f3-a7e766e0de5e"
     }
   ],
   "unitsKey": "MM",
   "fileTypeVersion": 1,
-  "compiledBom": {},
+  "compiledBom": [],
   "filetypeVersion": 1
 }
